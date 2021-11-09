@@ -22,24 +22,18 @@ class NavBar extends React.Component{
     render(){
         return(
             <div className="Navigation">
-                <nav className="secondary-Nav" id={this.state.isToggled ? "open" : "close"}>
-                    <ul className="hiddenLinks">
-                        <Link to="/">Home</Link>
-                        <Link to="/">Menu</Link>
-                        <Link to="/">About</Link>
-                        <Link to="/">Contact</Link>
-                    </ul>
+                <nav className="slide" id={this.state.isToggled ? "open" : "closed"}>
                 </nav>
-                
-                <nav className="main-Nav">
+                 <MenuIcon className="Hamburger" onClick={this.toggleNav}/>
+                <nav id="menu" className="main-Nav" >
                     <ul>
                     <Link className="list-Item" to="/">Home</Link>
                     <Link className="list-Item" to="/">Menu</Link>
                     <Link className="list-Item" to="/">About</Link>
                     <Link className="list-Item" to="/">Contact</Link>
                     </ul>
-                    <button onClick={this.toggleNav}><MenuIcon/></button>
                 </nav>
+                
             </div>
         )
     }
