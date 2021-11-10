@@ -1,0 +1,24 @@
+.home-Header {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.home-P {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  left: 25%;
+
+  color: white;
+}
+.readMore-Button {
+  position: fixed;
+  bottom: 20%;
+  left: 45%;
+  text-align: center;
+  justify-content: center;
+
+  font-size: 25px;
+  background-color: Brown;
+}

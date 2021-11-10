@@ -5,7 +5,6 @@ import "../styles/Footer.css"
 class Footer extends React.Component{
     render(){
         return(
-            <div>
                 <svg className="footer-Patterns" width="100%" height="220">
                     <g>
                        <g className="border-Lines">
@@ -228,7 +227,6 @@ class Footer extends React.Component{
                         />
                     </g>
                 </svg>
-            </div>
         )
     }
 }

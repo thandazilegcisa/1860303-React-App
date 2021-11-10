@@ -1,0 +1,21 @@
+.about-Header {
+  color: white;
+  text-align: left;
+  justify-content: center;
+
+  text-decoration-line: underline;
+  text-decoration-style: double;
+
+  text-decoration-color: orange;
+  margin: 25px;
+}
+.about-P {
+  position: relative;
+
+  color: white;
+  text-align: center;
+  justify-content: center;
+
+  width: 50%;
+  left: 25%;
+}

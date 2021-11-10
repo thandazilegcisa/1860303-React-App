@@ -7,10 +7,9 @@ class App extends React.Component{
   render(){
     return(
       <div>
-           
            <TopPattern/>
            <NavBar/>
-           <Footer/>
+           <Footer/> 
       </div>
 
     )

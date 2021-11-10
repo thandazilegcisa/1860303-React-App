@@ -1,18 +1,8 @@
 .Navigation {
-  width: 100%;
-  height: auto;
-
   display: flex;
-  flex-direction: row;
-
   justify-content: center;
-  text-align: center;
 
-  transform: translateX(15%);
-}
-.Navigation .main-Nav {
-  height: 100%;
-  width: 0;
+  font-size: 30px;
 }
 .list-Item {
   padding-left: 25px;
@@ -20,13 +10,25 @@
   text-decoration: none;
   color: white;
 }
-.list-Item #open {
-  display: block;
-}
 .Hamburger {
-  transform: translate(1300%, 65%);
-  color: white;
+  transform: translate(145%, 65%);
 }
 body {
   background-color: black;
+}
+
+/* Responsiveness */
+
+@media only screen and (width: 767px) {
+  .Navigation {
+    text-align: left;
+  }
+  .Hamburger {
+    color: inherit;
+    cursor: pointer;
+    color: white;
+  }
+  .Navigation a {
+    display: none;
+  }
 }

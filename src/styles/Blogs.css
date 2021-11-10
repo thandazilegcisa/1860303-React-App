@@ -1,0 +1,30 @@
+.blogs-Header {
+  color: White;
+  text-align: left;
+  justify-content: center;
+
+  text-decoration-line: underline;
+  text-decoration-style: double;
+
+  text-decoration-color: orange;
+
+  margin: 25px;
+}
+.blogs-Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  grid-gap: 25px;
+
+  color: white;
+
+  margin: 25px;
+}
+.card {
+  width: 85%;
+  height: 65%;
+  padding: 15px;
+  margin: 15px;
+}
+h2 {
+  color: sienna;
+}
