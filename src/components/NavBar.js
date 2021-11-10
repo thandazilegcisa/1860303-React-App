@@ -24,7 +24,6 @@ class NavBar extends React.Component{
             <div className="Navigation">
                 <nav className="slide" id={this.state.isToggled ? "open" : "closed"}>
                 </nav>
-                 <MenuIcon className="Hamburger" onClick={this.toggleNav}/>
                 <nav id="menu" className="main-Nav" >
                     <ul>
                     <Link className="list-Item" to="/">Home</Link>
@@ -33,7 +32,7 @@ class NavBar extends React.Component{
                     <Link className="list-Item" to="/">Contact</Link>
                     </ul>
                 </nav>
-                
+                <MenuIcon className="Hamburger" onClick={this.toggleNav}/>
             </div>
         )
     }
