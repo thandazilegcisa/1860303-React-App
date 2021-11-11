@@ -103,7 +103,7 @@ class Blogs extends React.Component{
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageEight">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageTen">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">
