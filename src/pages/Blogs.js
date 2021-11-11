@@ -73,7 +73,7 @@ class Blogs extends React.Component{
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageFour">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageSix">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">
@@ -83,7 +83,7 @@ class Blogs extends React.Component{
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageFive">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageSeven">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">
@@ -93,7 +93,7 @@ class Blogs extends React.Component{
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageFour">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageNine">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">
@@ -103,7 +103,17 @@ class Blogs extends React.Component{
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageFive">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageEight">Read More</NavLink>
+                        </header>
+                    </section>
+                    <section className="Card">
+                        <header>
+                            <h2>Internet Artwork Proposal</h2>
+                            <br/>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <NavLink exact className="read-More" to="/blogPageTen">Read More</NavLink>
                         </header>
                     </section>
                 </article>

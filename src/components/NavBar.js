@@ -6,6 +6,9 @@ import blogPageTwo from "../pages/blogPageTwo";
 import blogPageThree from "../pages/blogPageThree";
 import blogPageFour from "../pages/blogPageFour";
 import blogPageFive from "../pages/blogPageFive";
+import blogPageSix from "../pages/blogPageSix";
+import blogPageSeven from "../pages/blogPageSeven";
+import blogPageEight from "../pages/blogPageEight";
 import Home from "../pages/Home"
 import Blogs from "../pages/Blogs"
 import About from "../pages/About"
@@ -49,6 +52,9 @@ class NavBar extends React.Component{
                      <Route exact path="/blogPageThree" component={blogPageThree}/>
                      <Route exact path="/blogPageFour" component={blogPageFour}/>
                      <Route exact path="/blogPageFive" component={blogPageFive}/>
+                     <Route exact path="/blogPageSix" component={blogPageSix}/>
+                     <Route exact path="/blogPageSeven" component={blogPageSeven}/>
+                     <Route exact path="/blogPageEight" component={blogPageEight}/>
                      <Route exact path="/" component={Home}/>
                      <Route exact path="/blogs" component={Blogs}/>
                      <Route exact path="/about" component={About}/>
