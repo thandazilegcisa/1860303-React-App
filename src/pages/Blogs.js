@@ -108,7 +108,7 @@ class Blogs extends React.Component{
                     </section>
                     <section className="Card">
                         <header>
-                            <h2>Internet Artwork Proposal</h2>
+                            <h2>Internet Artwork Proposal #1</h2>
                             <br/>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
