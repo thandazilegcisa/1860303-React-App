@@ -25,19 +25,19 @@ class blogPageTwo extends React.Component{
                     <p className="two-P">
                       <h2>Mark Breakdown: Technical Component</h2>
                       
-                      I'd Like to Weight my Technical Section a bit more than everything else mostly because it was the most labour intensive. So I'd Like to weight it as 55 of the mark allocation and for that I'd Give myself 40/50 
+                      I'd Like to Weight my Technical Section a bit more than everything else mostly because it was the most labour intensive. So I'd Like to weight it as 55 of the mark allocation and for that I'd Give myself 40/55 
 
                     </p>
                     <p className="two-P">
                       <h2>Mark Breakdown: Creative Component</h2>
                       
-                      For the Creaive section id like this to be allocated out of 25 and id give myself a 14/25
+                      For the Creative section id like this to be allocated out of 25 and id give myself a 14/25
 
                     </p>
                     <p className="two-P">
                       <h2>Mark Breakdown: Blogs Component</h2>
                       
-                      For the Blogs section id like this to be allocated out of 20 and id give myself a 10/25
+                      For the Blogs section id like this to be allocated out of 20 and id give myself a 10/20
 
                     </p>
                     <p className="two-P">
