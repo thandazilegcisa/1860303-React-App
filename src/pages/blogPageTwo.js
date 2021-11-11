@@ -22,6 +22,30 @@ class blogPageTwo extends React.Component{
                     <p className="two-P">
                     I have also successfully implemented routing and links using the react framework. Though, there is no internet art page because i’ve proposed to contextualise the site as a whole as an artwork that reflects on the design and aesthetic value of how svg’s can be used in a site. On the other hand I did not comment my code much this time because I found that the way React works, intuitively demands a separation of concerns through components so ultimately the project’s program remains readable and legible.  
                     </p>
+                    <p className="two-P">
+                      <h2>Mark Breakdown: Technical Component</h2>
+                      
+                      I'd Like to Weight my Technical Section a bit more than everything else mostly because it was the most labour intensive. So I'd Like to weight it as 55 of the mark allocation and for that I'd Give myself 40/50 
+
+                    </p>
+                    <p className="two-P">
+                      <h2>Mark Breakdown: Creative Component</h2>
+                      
+                      For the Creaive section id like this to be allocated out of 25 and id give myself a 14/25
+
+                    </p>
+                    <p className="two-P">
+                      <h2>Mark Breakdown: Blogs Component</h2>
+                      
+                      For the Blogs section id like this to be allocated out of 20 and id give myself a 10/25
+
+                    </p>
+                    <p className="two-P">
+                      <h2>Overall Mark</h2>
+                      
+                      65/100
+
+                    </p>
                 </section>
                 
             </article>
