@@ -1,0 +1,27 @@
+.one-Header,
+.two-Header,
+.three-Header,
+.four-Header {
+  color: White;
+  text-align: left;
+  justify-content: center;
+
+  text-decoration-line: underline;
+  text-decoration-style: double;
+
+  text-decoration-color: orange;
+
+  margin: 45px;
+}
+.one-P,
+.two-P,
+.three-P {
+  color: white;
+
+  width: 75%;
+  position: relative;
+
+  left: 15%;
+
+  text-align: center;
+}

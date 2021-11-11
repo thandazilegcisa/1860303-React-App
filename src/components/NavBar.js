@@ -1,6 +1,11 @@
 import React from "react";
 import {Switch, Route,NavLink} from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
+import blogPageOne from "../pages/blogPageOne";
+import blogPageTwo from "../pages/blogPageTwo";
+import blogPageThree from "../pages/blogPageThree";
+import blogPageFour from "../pages/blogPageFour";
+import blogPageFive from "../pages/blogPageFive";
 import Home from "../pages/Home"
 import Blogs from "../pages/Blogs"
 import About from "../pages/About"
@@ -39,6 +44,11 @@ class NavBar extends React.Component{
                 </div>
                            
                 <Switch/>
+                     <Route exact path="/blogPageOne" component={blogPageOne}/>
+                     <Route exact path="/blogPageTwo" component={blogPageTwo}/>
+                     <Route exact path="/blogPageThree" component={blogPageThree}/>
+                     <Route exact path="/blogPageFour" component={blogPageFour}/>
+                     <Route exact path="/blogPageFive" component={blogPageFive}/>
                      <Route exact path="/" component={Home}/>
                      <Route exact path="/blogs" component={Blogs}/>
                      <Route exact path="/about" component={About}/>

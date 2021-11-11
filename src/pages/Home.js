@@ -11,8 +11,8 @@ class Home extends React.Component{
                     to the practice and theoretical propositions proposed to attempt to
                     define what internet art means. This site will act as forming the
                     basis of what i understand internet art to be from the lens of
-                    decoloniality and design justice around the development of
-                    technologies for and in specific contexts.
+                    decoloniality and critical code studies around the development of
+                    computational literacy.
                 </p>
             </article>
         )
