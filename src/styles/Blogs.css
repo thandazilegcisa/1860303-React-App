@@ -25,6 +25,11 @@
   padding: 15px;
   margin: 15px;
 }
+.Card {
+  margin: 5px;
+  padding: 15px;
+
+}
 h2 {
   color: sienna;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import {Switch, Route,NavLink} from "react-router-dom";
 import Palette from "../images/Palette.png"
 
 class blogPageThree extends React.Component{

@@ -13,6 +13,10 @@
 
   margin: 45px;
 }
+.references-Header {
+  width: 50%;
+  transform: translateX(92.5%);
+}
 .one-P,
 .two-P,
 .three-P {
@@ -23,5 +27,5 @@
 
   left: 15%;
 
-  text-align: center;
+  text-align: justify;
 }

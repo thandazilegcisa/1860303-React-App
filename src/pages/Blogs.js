@@ -18,12 +18,33 @@ class Blogs extends React.Component{
                 <article className="blogs-Container">
                     <section className="Card">
                         <header>
-                            <h2>What is Decolonisation?</h2>
+                            <h2>What is Decolonisation? (Updated)</h2>
+                            <br/>
+                            <p>
+                            For starters, the authors do not introduce themselves as the arbiter, 
+                            saviours that will emancipate the reader from..
+                            </p>
+                            <NavLink exact className="read-More" to="/blogPageOne">Read More</NavLink>
+                        </header>
+                    </section>
+                    <section className="Card">
+                        <header>
+                            <h2>Computational Literacy (Updated)</h2>
                             <br/>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <NavLink exact className="read-More" to="/blogPageOne">Read More</NavLink>
+                            <NavLink exact className="read-More" to="/blogPageFour">Read More</NavLink>
+                        </header>
+                    </section>
+                    <section className="Card">
+                        <header>
+                            <h2>Algorithmic Colonisation of Africa</h2>
+                            <br/>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <NavLink exact className="read-More" to="/blogPageEleven">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">
@@ -38,32 +59,22 @@ class Blogs extends React.Component{
                     </section>
                     <section className="Card">
                         <header>
-                            <h2>Creative Reflection: #2</h2>
-                            <br/>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            </p>
-                            <NavLink exact className="read-More" to="/blogPageThree">Read More</NavLink>
-                        </header>
-                    </section>
-                    <section className="Card">
-                        <header>
-                            <h2>Computational Literacy</h2>
-                            <br/>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            </p>
-                            <NavLink exact className="read-More" to="/blogPageFour">Read More</NavLink>
-                        </header>
-                    </section>
-                    <section className="Card">
-                        <header>
                             <h2>Proposal Updated</h2>
                             <br/>
                             <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
                             <NavLink exact className="read-More" to="/blogPageFive">Read More</NavLink>
+                        </header>
+                    </section>
+                    <section className="Card">
+                        <header>
+                            <h2>Creative Reflection: #2</h2>
+                            <br/>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <NavLink exact className="read-More" to="/blogPageThree">Read More</NavLink>
                         </header>
                     </section>
                     <section className="Card">

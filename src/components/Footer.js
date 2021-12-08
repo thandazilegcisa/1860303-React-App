@@ -62,7 +62,13 @@ class Footer extends React.Component{
                        fill="none"
                        stroke="black"
                        stroke-width="4"
-                       points="1205,245 1310,125 1385,195"
+                       points="1195,245 1310,125 1485,295"
+                       ></polyline>
+                      <polyline 
+                       fill="none"
+                       stroke="black"
+                       stroke-width="4"
+                       points="1145,485 1520,125 1585,195 1625,240 1725,125 1825,245"
                        ></polyline>
                     </g>
                     </g>
@@ -115,6 +121,20 @@ class Footer extends React.Component{
                           stroke-width="2"
                           stroke-miterlimit="20"
                           points=" 1380,220 1245,220, 1310,155 "
+                        />
+                        <polygon
+                          fill="Teal"
+                          stroke="#000000"
+                          stroke-width="2"
+                          stroke-miterlimit="20"
+                          points=" 1580,220 1445,220, 1518,155 "
+                        />
+                        <polygon
+                          fill="Teal"
+                          stroke="#000000"
+                          stroke-width="2"
+                          stroke-miterlimit="20"
+                          points=" 1780,220 1665,220, 1725,155 "
                         />
                     </g>
                     <g>
@@ -173,6 +193,13 @@ class Footer extends React.Component{
                           stroke-width="2"
                           stroke-miterlimit="20"
                           points=" 1490,130 1335,130, 1415,205 "
+                        />
+                      <polygon
+                          fill="Teal"
+                          stroke="#000000"
+                          stroke-width="2"
+                          stroke-miterlimit="20"
+                          points=" 1550,130 1695,130, 1625,205 "
                         />
                     </g>
                     <g className="upper-Triangles"> 

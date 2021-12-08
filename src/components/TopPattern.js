@@ -92,7 +92,21 @@ class TopPattern extends React.Component{
                               stroke="#000000"
                               stroke-width="3"
                               stroke-miterlimit="10"
-                              points="1265,0 1265,30 1310,30 1310,60 1355,60 1355,95 1380,95"
+                              points="1265,0 1265,30 1310,30 1310,60 1355,60 1355,95 1380,95 1395,95 1395,60 1435,60 1435,30 1475,30 1475,0 "
+                         />
+                        <polyline
+                              fill="none"
+                              stroke="#000000"
+                              stroke-width="3"
+                              stroke-miterlimit="10"
+                              points=" 1410,120 1410,85 1455,85 1455,60 1495,60 1495,30 1545,30 1545,60 1590,60 1590,85 1635,85 1635,120 "
+                         />
+                        <polyline
+                              fill="none"
+                              stroke="#000000"
+                              stroke-width="3"
+                              stroke-miterlimit="10"
+                              points="1565,0 1565,30 1610,30 1610,60 1655,60 1655,95 1680,95 1695,95 1695,60 1735,60 1735,30 1775,30 1775,0 "
                          />
                        </g>
                        <g>
@@ -166,7 +180,20 @@ class TopPattern extends React.Component{
                              stroke-miterlimit="20"
                              points=" 1240,120 1195,120 1215,95 "
                            />
-
+                          <polygon
+                             fill="DarkBlue"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1470,120  1565,120 1515,65 "
+                           />
+                          <polygon
+                             fill="Sienna"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1540,120 1495,120 1515,95 "
+                           />
                        </g>
                        <g>
                          <polygon
@@ -225,7 +252,34 @@ class TopPattern extends React.Component{
                              stroke-miterlimit="20"
                              points=" 1025,10 1085,10 1060,45 "
                            />
-                          
+                        <polygon
+                             fill="Brown"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1325,10 1425,10 1375,65 "
+                           />
+                        <polygon
+                             fill="Sienna"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1345,10 1405,10 1375,45 "
+                           />
+                        <polygon
+                             fill="Brown"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1625,10 1725,10 1675,65 "
+                           />
+                        <polygon
+                             fill="Sienna"
+                             stroke="#000000"
+                             stroke-width="2"
+                             stroke-miterlimit="20"
+                             points=" 1645,10 1705,10 1675,45 "
+                           />
                        </g>
                 </svg>
         )
