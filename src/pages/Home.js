@@ -1,6 +1,8 @@
 import React from "react"
 import "../styles/Home.css"
 import "../styles/Footer.css"
+import "../styles/blogPage.css"
+import "../styles/Blogs.css"
 
 class Home extends React.Component{
     render(){

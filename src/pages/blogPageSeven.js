@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/blogPage.css"
+import "../styles/Blogs.css"
 
 class blogPageSeven extends React.Component{
     render(){

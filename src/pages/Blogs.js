@@ -1,5 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+import "../styles/blogPage.css"
 import "../styles/Blogs.css"
 import imageOne from "../images/ImageOne.jpg"
 

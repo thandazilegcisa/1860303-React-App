@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/About.css"
+import "../styles/blogPage.css"
+import "../styles/Blogs.css"
 
 function About (){
 
