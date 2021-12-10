@@ -22,16 +22,15 @@
 }
 .aboutSvg {
   margin: 25px;
-  transform: translateX(295%);
-}
-@media screen and (max-width: 1780px) {
-  .aboutSvg {
-    transform: translateX(385%);
-  }
 }
 @media screen and (max-width: 1400px) {
   .aboutSvg {
     transform: translateX(215%);
+  }
+}
+@media screen and (max-width: 1780px) {
+  .aboutSvg {
+    transform: translateX(385%);
   }
 }
 @media screen and (max-width: 580px) {
