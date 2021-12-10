@@ -67,7 +67,7 @@ class blogPageThree extends React.Component{
                     <p className="three-P">
                     I started the project by drawing various ideas of patterns on paper without any colour and subsequently ended up choosing the current patterns. I then moved on to creating a colour palette, which looks the following:
                     </p>
-                    <img src={<Palette/>} className="three-Image"></img>
+                    <img src={<Palette/>} className="three-Image" alt="paletteImage"></img>
                     <p className="three-P">
                     The most concerning aspect of choosing these colours was managing the overall saturation of the page. Initially the orange colour was going to be the basis from which everything is centred around because I had it as the background colour for the body element of the app component. But because of my concerns that the page looks to bright, I opted for a black background colour which works well in balancing the overall saturation of the page because of the amount of contrast black brings.
                     </p>
