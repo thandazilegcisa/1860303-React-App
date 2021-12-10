@@ -23,12 +23,12 @@
 .aboutSvg {
   margin: 25px;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1395px) {
   .aboutSvg {
     transform: translateX(215%);
   }
 }
-@media screen and (max-width: 1780px) {
+@media screen and (max-width: 1744.5px) {
   .aboutSvg {
     transform: translateX(255%);
   }
@@ -39,7 +39,7 @@
     height: 45px;
   }
 }
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 455px) {
   .aboutSvg {
     transform: translateX(35%);
     height: 35px;

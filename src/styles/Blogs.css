@@ -70,12 +70,12 @@ h2 {
     transform: translateX(0%);
   }
 }
-@media screen and (max-width: 1780px) {
+@media screen and (max-width: 1744.5px) {
   .blogsSvg {
     transform: translateX(140%);
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1395px) {
   .blogsSvg {
     transform: translateX(105%);
   }
@@ -86,7 +86,7 @@ h2 {
     height: 45px;
   }
 }
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 455px) {
   .blogsSvg {
     transform: translateX(-5.8%);
     height: 35px;
