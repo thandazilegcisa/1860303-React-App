@@ -78,7 +78,7 @@ h2 {
 }
 @media screen and (max-width: 1400px) {
   .blogsSvg {
-    transform: translateX(85%);
+    transform: translateX(65%);
   }
 }
 @media screen and (max-width: 580px) {
