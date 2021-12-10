@@ -23,25 +23,30 @@
 .aboutSvg {
   margin: 25px;
 }
-@media screen and (max-width: 1395px) {
+@media screen and (max-width: 1228.8px) {
   .aboutSvg {
-    transform: translateX(215%);
+    transform: translateX(485px);
   }
 }
 @media screen and (max-width: 1744.5px) {
   .aboutSvg {
-    transform: translateX(255%);
+    transform: translateX(655px);
+  }
+}
+@media screen and (max-width: 1536.9px) {
+  .aboutSvg {
+    transform: translateX(655px);
   }
 }
 @media screen and (max-width: 580px) {
   .aboutSvg {
-    transform: translateX(55%);
+    transform: translateX(180px);
     height: 45px;
   }
 }
 @media screen and (max-width: 455px) {
   .aboutSvg {
-    transform: translateX(35%);
+    transform: translateX(105px);
     height: 35px;
   }
 }
