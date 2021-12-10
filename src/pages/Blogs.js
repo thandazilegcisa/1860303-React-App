@@ -1,13 +1,5 @@
 import React from "react";
 import {Switch, Route,NavLink} from "react-router-dom";
-import blogPageOne from "./blogPageOne";
-import blogPageTwo from "./blogPageTwo";
-import blogPageThree from "./blogPageThree";
-import blogPageFour from "./blogPageFour";
-import blogPageFive from "./blogPageFive";
-import blogPageSix from "./blogPageSix";
-import blogPageSeven from "./blogPageSeven";
-import blogPageEight from "./blogPageEight";
 import "../styles/Blogs.css"
 import imageOne from "../images/ImageOne.jpg"
 
@@ -45,7 +37,7 @@ class Blogs extends React.Component{
             </svg>
                 <article className="blogs-Container">
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -211,7 +203,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -376,7 +368,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                       <img className="card-Image" src={imageOne}></img>
+                       <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -541,7 +533,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -706,7 +698,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                         <img className="card-Image" src={imageOne}></img>
+                         <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -871,7 +863,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1035,8 +1027,8 @@ class Blogs extends React.Component{
 </defs>
 </svg>
                     </section>
-                    <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                    <section className="Card" >
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1202,7 +1194,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                         <img className="card-Image" src={imageOne}></img>
+                         <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1367,7 +1359,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                            <img className="card-Image" src={imageOne}></img>
+                            <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1533,7 +1525,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1699,7 +1691,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -1865,7 +1857,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
@@ -2031,7 +2023,7 @@ class Blogs extends React.Component{
 </svg>
                     </section>
                     <section className="Card">
-                        <img className="card-Image" src={imageOne}></img>
+                        <img className="card-Image" src={imageOne} alt="cardImageLayer"></img>
                     <svg  className="cardSvg" width="202" height="21" viewBox="0 0 202 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i_4_135)">
 <path d="M124.007 6.00005L111.007 6.01777L111 1.01778L124 1.00005L124.007 6.00005Z" fill="#A52A2A"/>
