@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 1356px) {
   .aboutSvg {
-    transform: translateX(255%);
+    transform: translateX(245%);
   }
 }
 @media screen and (max-width: 580px) {

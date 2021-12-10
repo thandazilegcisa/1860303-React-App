@@ -81,11 +81,9 @@
     transform: translateX(140%);
   }
 }
-@media screen and (max-width: 1356px) {
-}
 @media screen and (max-width: 580px) {
   .blogsSvg {
-    transform: translateX(14.5%);
+    transform: translateX(15.5%);
     height: 45px;
   }
 }

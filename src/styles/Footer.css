@@ -1,8 +1,6 @@
 .footer-Patterns {
   background-color: orange;
   transform: translateY(100%);
-
-  opacity: 75%;
 }
 
 @media screen and (max-width: 475px) {
