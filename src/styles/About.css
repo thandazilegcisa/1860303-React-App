@@ -31,18 +31,18 @@
 }
 @media screen and (max-width: 1356px) {
   .aboutSvg {
-    transform: translateX(245%);
+    transform: translateX(215%);
   }
 }
 @media screen and (max-width: 580px) {
   .aboutSvg {
-    transform: translateX(65%);
+    transform: translateX(55%);
     height: 45px;
   }
 }
 @media screen and (max-width: 445px) {
   .aboutSvg {
-    transform: translateX(35%);
+    transform: translateX(30%);
     height: 35px;
   }
 }
