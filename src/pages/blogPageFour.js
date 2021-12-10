@@ -1,5 +1,4 @@
 import React from "react";
-import {Switch, Route,NavLink} from "react-router-dom";
 
 class blogPageFour extends React.Component{
     render(){

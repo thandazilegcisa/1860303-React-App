@@ -1,5 +1,5 @@
 import React from "react";
-import {Switch, Route,NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import "../styles/Blogs.css"
 import imageOne from "../images/ImageOne.jpg"
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Palette from "../images/Palette.png"
+import "../styles/blogPage.css"
 
 class blogPageThree extends React.Component{
     render(){
