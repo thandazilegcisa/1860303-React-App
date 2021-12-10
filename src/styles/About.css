@@ -1,21 +1,59 @@
 .about-Header {
   color: white;
-  text-align: left;
-  justify-content: center;
-
-  text-decoration-line: underline;
-  text-decoration-style: double;
+  text-align: justify;
+  justify-content: justify;
 
   text-decoration-color: orange;
   margin: 25px;
+  font-size: 10px;
+
+  width: 45%;
+  transform: translateX(105%);
 }
 .about-P {
   position: relative;
 
   color: white;
-  text-align: center;
+  text-align: justify;
   justify-content: center;
 
   width: 50%;
   left: 25%;
+}
+.aboutSvg {
+  margin: 25px;
+  transform: translateX(295%);
+}
+@media screen and (max-width: 1756px) {
+  .aboutSvg {
+    transform: translateX(325%);
+  }
+}
+@media screen and (max-width: 1356px) {
+  .aboutSvg {
+    transform: translateX(255%);
+  }
+}
+@media screen and (max-width: 580px) {
+  .aboutSvg {
+    transform: translateX(65%);
+    height: 45px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .aboutSvg {
+    transform: translateX(35%);
+    height: 35px;
+  }
+}
+.aboutSvg path {
+  stroke-dasharray: 145px;
+  stroke-dashoffset: 85px;
+
+  animation: line-anim 5s ease forwards;
+}
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
 }

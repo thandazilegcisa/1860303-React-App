@@ -12,6 +12,9 @@
   text-decoration-color: orange;
 
   margin: 45px;
+  font-size: 35px;
+
+  transform: translateX(32.5%);
 }
 .references-Header {
   width: 50%;
@@ -28,4 +31,78 @@
   left: 15%;
 
   text-align: justify;
+}
+.pageOneSvg {
+  padding: 45px;
+  transform: translateX(35%);
+}
+.pageTwoSvg {
+  padding: 45px;
+  transform: translateX(25%);
+}
+.pageElevenSvg {
+  padding: 45px;
+  transform: translateX(20%);
+}
+.blogPageTwoSvg {
+  padding: 45px;
+  transform: translateX(35%);
+}
+.creativeReflectionSvg {
+  padding: 45px;
+  transform: translateX(40%);
+}
+.artworkReflectionSvg,
+.artworkProposalSvg {
+  padding: 45px;
+  transform: translateX(40%);
+}
+
+.blogPageTwoSvg .pageOneSvg path,
+.pageTwoSvg path,
+.pageElevenSvg path,
+.blogPageTwoSvg path,
+.creativeReflectionSvg path,
+.artworkReflectionSvg path,
+.artworkProposalSvg path {
+  stroke-dasharray: 145px;
+  stroke-dashoffset: 85px;
+
+  animation: line-anim 5s ease forwards;
+}
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (max-width: 1756px) {
+  .blogsSvg {
+    transform: translateX(140%);
+  }
+}
+@media screen and (max-width: 1356px) {
+}
+@media screen and (max-width: 580px) {
+  .blogsSvg {
+    transform: translateX(14.5%);
+    height: 45px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .creativeReflectionSvg,
+  .artworkReflectionSvg,
+  .artworkProposalSvg {
+    transform: translateX(-18.8%);
+    height: 25px;
+  }
+  .pageOneSvg,
+  .pageTwoSvg,
+  .blogPageTwoSvg {
+    transform: translateX(-23.8%);
+    height: 22.5px;
+  }
+  .blogPageTwoSvg {
+    transform: translateX(-20%);
+  }
 }

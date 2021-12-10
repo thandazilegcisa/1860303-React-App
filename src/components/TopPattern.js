@@ -109,8 +109,9 @@ class TopPattern extends React.Component{
                               points="1565,0 1565,30 1610,30 1610,60 1655,60 1655,95 1680,95 1695,95 1695,60 1735,60 1735,30 1775,30 1775,0 "
                          />
                        </g>
-                       <g>
+                       <g id="darkBlueColor">
                           <polygon
+                             id="darkBlueColor"
                              fill="DarkBlue"
                              stroke="#000000"
                              stroke-width="2"

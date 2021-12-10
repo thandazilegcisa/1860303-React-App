@@ -6,10 +6,23 @@
 }
 .list-Item {
   padding-left: 25px;
-
+  margin-left: 5px;
   text-decoration: none;
   color: white;
 }
+.list-Item:hover {
+  animation: link-Anim 0.85s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes link-Anim {
+  from {
+    font-size: 30px;
+  }
+  to {
+    font-size: 25px;
+  }
+}
+
 .Hamburger {
   transform: translate(145%, 65%);
 }

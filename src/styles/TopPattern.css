@@ -1,3 +1,7 @@
 .pattern-Above {
-  background-color: teal;
+  background-color: white;
+  opacity: 75%;
+
+  animation: patternAnim 10s ease-in-out;
+  animation-iteration-count: infinite;
 }

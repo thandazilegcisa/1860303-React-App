@@ -1,19 +1,49 @@
 import React from "react";
 import "../styles/About.css"
 
-class About extends React.Component{
-    render(){
-        return(
+function About (){
+
+    return(
             <article className="About-Page">
-                <header><h1 className="about-Header">About:</h1></header>
+                <svg className="aboutSvg" width="195" height="61" viewBox="0 0 195 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_5_12)">
+<path d="M120.661 56.3032C123.52 54.5316 125.704 52.062 127.209 48.9283C128.73 45.7855 129.477 42.2684 129.477 38.4023V37.9453C129.477 31.7613 127.804 26.6704 124.343 22.8045C120.898 18.9299 116.363 17.0078 110.859 17.0078C107.297 17.0078 104.078 17.8702 101.239 19.6193L101.235 19.622C98.419 21.3722 96.2283 23.8523 94.6575 27.0187L94.6541 27.0258C93.1077 30.1935 92.3477 33.7362 92.3477 37.6289V38.0859C92.3477 44.2246 94.0096 49.2902 97.4446 53.1547L97.4477 53.1581C100.914 57.0294 105.447 58.9531 110.93 58.9531C114.56 58.9531 117.817 58.0802 120.661 56.3032ZM120.661 56.3032C120.66 56.3037 120.659 56.3043 120.658 56.3048L120 55.2422M120.661 56.3032C120.661 56.3028 120.662 56.3025 120.662 56.3022L120 55.2422M120 55.2422C117.375 56.8828 114.352 57.7031 110.93 57.7031C105.773 57.7031 101.59 55.9102 98.3789 52.3242M120 55.2422C122.648 53.6016 124.676 51.3164 126.082 48.3867C127.512 45.4336 128.227 42.1055 128.227 38.4023V37.9453C128.227 31.9922 126.621 27.2227 123.41 23.6367L98.3789 52.3242M98.3789 52.3242C95.1914 48.7383 93.5977 43.9922 93.5977 38.0859V37.6289C93.5977 33.9023 94.3242 30.5508 95.7773 27.5742C97.2539 24.5977 99.293 22.3008 101.895 20.6836L98.3789 52.3242ZM10.9453 58.25H11.8234L12.1212 57.4239L16.6398 44.8906H36.3333L40.9198 57.4294L41.22 58.25H42.0938H49.0195H50.8361L50.187 56.5534L30.605 5.36587L30.2977 4.5625H29.4375H23.5312H22.6705L22.3635 5.36657L2.81662 56.5541L2.169 58.25H3.98438H10.9453ZM84.0811 53.186L84.0836 53.1829C86.9637 49.3679 88.3438 44.4022 88.3438 38.4023V37.8398C88.3438 31.6009 86.9838 26.5219 84.1186 22.7428C81.2424 18.9177 77.2409 17.0078 72.2578 17.0078C68.4729 17.0078 65.2455 18.0406 62.6445 20.1291V3V1.75H61.3945H54.8906H53.6406V3V57V58.25H54.8906H60.8672H62.0304L62.114 57.0898L62.2268 55.522C64.8992 57.82 68.2943 58.9531 72.3281 58.9531C77.21 58.9531 81.1676 57.0196 84.0811 53.186ZM117.738 28.2582L117.738 28.2582L117.745 28.2682C119.526 30.5726 120.473 33.6552 120.473 37.6289C120.473 42.1357 119.531 45.4679 117.805 47.7772C116.102 50.032 113.852 51.1445 110.93 51.1445C108.029 51.1445 105.774 50.0418 104.047 47.8023C102.314 45.5252 101.387 42.4316 101.387 38.4023C101.387 33.7947 102.343 30.4504 104.08 28.1966C105.813 25.9474 108.038 24.8516 110.859 24.8516C113.752 24.8516 116.007 25.971 117.738 28.2582ZM138.508 55.0191L138.517 55.0288C140.949 57.7013 144.421 58.9531 148.723 58.9531C152.726 58.9531 156.092 58.0035 158.721 56.0282L158.759 57.0467L158.804 58.25H160.008H166.195H167.445V57V18.9609V17.7109H166.195H159.691H158.441V18.9609V46.3558C157.726 47.8584 156.703 48.9582 155.371 49.7044C153.955 50.498 152.112 50.9336 149.777 50.9336C147.703 50.9336 146.348 50.3082 145.474 49.2329C144.559 48.1082 143.996 46.2808 143.996 43.5352V18.9609V17.7109H142.746H136.242H134.992V18.9609L134.992 43.7109L134.992 43.7173C135.016 48.5026 136.121 52.3401 138.508 55.0191ZM186.184 9.75V8.5H184.934H178.43H177.18V9.75V17.7109H171.504H170.254V18.9609V23.9883V25.2383H171.504H177.18V47.5781C177.18 50.9879 177.957 53.8107 179.687 55.8704C181.462 57.9833 184.05 58.9531 187.219 58.9531C188.958 58.9531 190.733 58.701 192.541 58.2056L193.461 57.9536V57V51.7266V50.1803L191.949 50.5043C190.667 50.7791 189.736 50.8984 189.117 50.8984C187.767 50.8984 187.136 50.565 186.844 50.2242C186.471 49.7635 186.184 48.9498 186.184 47.5781V25.2383H192.035H193.285V23.9883V18.9609V17.7109H192.035H186.184V9.75ZM19.5838 36.8359L26.4867 17.804L33.4176 36.8359H19.5838ZM77.0036 28.1212C78.5072 30.2427 79.3398 33.3717 79.3398 37.6641C79.3398 42.4051 78.4855 45.7281 76.9731 47.8332C75.4867 49.902 73.4487 50.9336 70.7109 50.9336C68.8056 50.9336 67.2163 50.4864 65.8927 49.6373C64.6282 48.8261 63.5372 47.6036 62.6445 45.9054V30.0398C63.4843 28.3455 64.5419 27.1286 65.7909 26.3213C67.0975 25.4767 68.6954 25.0273 70.6406 25.0273C73.4867 25.0273 75.5495 26.0695 77.0036 28.1212Z" stroke="#FFA500" stroke-width="2.5"/>
+</g>
+<defs>
+<filter id="filter0_i_5_12" x="0.353622" y="0.5" width="194.357" height="63.7031" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_5_12"/>
+</filter>
+</defs>
+</svg>
+               <header className="about-Header">
+                   <h1>
+                       (Rationale)
+                   </h1>
+               </header>
                 <section>
                     <p className="about-P">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui justo, egestas vitae nunc quis, gravida fringilla diam. Etiam posuere felis ut justo fermentum, eget aliquam ligula congue. Nunc eu orci eu libero pharetra ornare quis et felis. Maecenas convallis ipsum orci, vitae sodales arcu egestas id. Donec faucibus tempus lacus nec sagittis. Quisque tempus sed lorem nec cursus. Pellentesque vestibulum arcu a cursus aliquet. Praesent efficitur leo at ornare aliquet.Donec consectetur purus elit, ut cursus velit posuere sit amet. Nunc maximus malesuada lobortis. Fusce nec luctus nisl, sed maximus orci. In id faucibus nunc, a ultrices lacus. Maecenas commodo pharetra urna nec blandit. Curabitur rutrum varius condimentum. 
+                    For my project i would like to examine the lense of how cultural heritage influences the subjectiveness of what
+            decolonisation means from the perspective our how subjectivities are cultivated within particular context, because of
+            various geopolitical histories that though we share across the diaspora, we ultimately expereince differently. Therefore,
+            the current state of the site seeks to create representational value out of the text explored through the blogs and the visuals
+            exhibited by the site. Hence, The art work is
+            predominately be based on presenting the website itself as an
+            artwork through its design and theoretical component, which is why i chose to include a new blog post that will further contextualise
+            the rationale behind the process of making this site. How i set out to achieve these goals were based on 
+            using Svg's along with Css (natives of the web) and React to create the design.
                     </p>
                 </section>
             </article>
-        )
-    }
-}
+    )
+ }
+
+
 
 export default About
