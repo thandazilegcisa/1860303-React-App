@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/1860303-React-App/static/css/main.24adc3a3.chunk.css",
-    "main.js": "/1860303-React-App/static/js/main.e300cef4.chunk.js",
-    "main.js.map": "/1860303-React-App/static/js/main.e300cef4.chunk.js.map",
-    "runtime-main.js": "/1860303-React-App/static/js/runtime-main.5f22433e.js",
-    "runtime-main.js.map": "/1860303-React-App/static/js/runtime-main.5f22433e.js.map",
-    "static/js/2.5affc340.chunk.js": "/1860303-React-App/static/js/2.5affc340.chunk.js",
-    "static/js/2.5affc340.chunk.js.map": "/1860303-React-App/static/js/2.5affc340.chunk.js.map",
-    "index.html": "/1860303-React-App/index.html",
-    "static/css/main.24adc3a3.chunk.css.map": "/1860303-React-App/static/css/main.24adc3a3.chunk.css.map",
-    "static/js/2.5affc340.chunk.js.LICENSE.txt": "/1860303-React-App/static/js/2.5affc340.chunk.js.LICENSE.txt",
-    "static/media/ImageOne.28cdadea.jpg": "/1860303-React-App/static/media/ImageOne.28cdadea.jpg",
-    "static/media/Palette.acc189ac.png": "/1860303-React-App/static/media/Palette.acc189ac.png"
+    "main.css": "/WSOA4175A_1860303-React-App/static/css/main.086de8bc.chunk.css",
+    "main.js": "/WSOA4175A_1860303-React-App/static/js/main.e4cc28d5.chunk.js",
+    "main.js.map": "/WSOA4175A_1860303-React-App/static/js/main.e4cc28d5.chunk.js.map",
+    "runtime-main.js": "/WSOA4175A_1860303-React-App/static/js/runtime-main.60c5de59.js",
+    "runtime-main.js.map": "/WSOA4175A_1860303-React-App/static/js/runtime-main.60c5de59.js.map",
+    "static/js/2.d3f4d11a.chunk.js": "/WSOA4175A_1860303-React-App/static/js/2.d3f4d11a.chunk.js",
+    "static/js/2.d3f4d11a.chunk.js.map": "/WSOA4175A_1860303-React-App/static/js/2.d3f4d11a.chunk.js.map",
+    "index.html": "/WSOA4175A_1860303-React-App/index.html",
+    "static/css/main.086de8bc.chunk.css.map": "/WSOA4175A_1860303-React-App/static/css/main.086de8bc.chunk.css.map",
+    "static/js/2.d3f4d11a.chunk.js.LICENSE.txt": "/WSOA4175A_1860303-React-App/static/js/2.d3f4d11a.chunk.js.LICENSE.txt",
+    "static/media/ImageOne.28cdadea.jpg": "/WSOA4175A_1860303-React-App/static/media/ImageOne.28cdadea.jpg",
+    "static/media/Palette.acc189ac.png": "/WSOA4175A_1860303-React-App/static/media/Palette.acc189ac.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f22433e.js",
-    "static/js/2.5affc340.chunk.js",
-    "static/css/main.24adc3a3.chunk.css",
-    "static/js/main.e300cef4.chunk.js"
+    "static/js/runtime-main.60c5de59.js",
+    "static/js/2.d3f4d11a.chunk.js",
+    "static/css/main.086de8bc.chunk.css",
+    "static/js/main.e4cc28d5.chunk.js"
   ]
 }
