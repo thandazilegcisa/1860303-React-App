@@ -43,7 +43,7 @@ class NavBar extends React.Component{
                     </nav>
                     <nav id="menu" className="main-Nav" >
                         <ul>
-                              <NavLink exact className="list-Item" to="/1860303-React-App/">Home</NavLink>
+                              <NavLink exact className="list-Item" to="/WSOA4175A_1860303-React-App/">Home</NavLink>
                               <NavLink exact className="list-Item" to="/blogs">Blogs</NavLink>
                               <NavLink exact className="list-Item" to="/about">About</NavLink>
                         </ul>
@@ -65,7 +65,7 @@ class NavBar extends React.Component{
                      <Route exact path="/blogPageEleven" component={blogPageEleven}/>
                      <Route exact path="/blogPageTwelve" component={blogPageTwelve}/>
                      <Route exact path="/blogPageThirteen" component={blogPageThirteen}/>
-                     <Route exact path="/1860303-React-App/" component={Home}/>
+                     <Route exact path="/WSOA4175A_1860303-React-App/" component={Home}/>
                      <Route exact path="/blogs" component={Blogs}/>
                      <Route exact path="/about" component={About}/>
                 <Switch/>
